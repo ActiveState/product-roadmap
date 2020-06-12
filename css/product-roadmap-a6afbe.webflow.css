@@ -1,0 +1,357 @@
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  height: auto;
+  min-height: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-color: #2c363a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.body {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.main {
+  margin-right: 100px;
+  margin-bottom: 0px;
+  margin-left: 100px;
+}
+
+.logo {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, sans-serif;
+  color: #fff;
+  font-size: 30px;
+}
+
+.nav-link {
+  -webkit-transition: color 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ff2f4c;
+}
+
+.nav-link.w--current {
+  color: #ff2f4c;
+}
+
+.nav-link.w--current:hover {
+  color: #ff2f4c;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.container {
+  position: static;
+  left: auto;
+  right: auto;
+  display: block;
+  width: auto;
+  max-width: 100%;
+  margin-right: 60px;
+  margin-left: 60px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.hero {
+  display: block;
+  max-width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.h1 {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  font-family: 'Open Sans', sans-serif;
+  color: #2c363a;
+  font-size: 72px;
+  line-height: 78px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.h1.centertext {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.now {
+  display: block;
+  overflow: visible;
+  max-width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.image {
+  position: static;
+  display: block;
+  max-height: 600px;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  clear: both;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.h2 {
+  margin-top: 0px;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.content {
+  margin-bottom: 0px;
+  margin-left: 30px;
+}
+
+.paragraph {
+  margin-bottom: 120px;
+  font-family: 'Open Sans', sans-serif;
+  color: #2c363a;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.paragraph.lastpara {
+  margin-bottom: 0px;
+}
+
+.content-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.live-badge {
+  margin-top: 0px;
+  margin-bottom: auto;
+  margin-left: 16px;
+  padding: 5px 16px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ff2f4c;
+  border-radius: 30px;
+  color: #ff2f4c;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.link {
+  color: #2a4dc0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.next {
+  display: block;
+  overflow: visible;
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+
+.later {
+  display: block;
+  overflow: visible;
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+
+.container-2 {
+  max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ddd;
+  color: #ddd;
+}
+
+.text-block {
+  font-family: 'Open Sans', sans-serif;
+  color: #2c363a;
+  font-size: 16px;
+  text-align: center;
+}
+
+.call-to-action {
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.link-2 {
+  text-decoration: none;
+}
+
+.link-3 {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-link {
+    border-top: 2px none transparent;
+    border-bottom: 2px solid #fff;
+    -webkit-transition: border-color 200ms ease, color 200ms ease-in-out;
+    transition: border-color 200ms ease, color 200ms ease-in-out;
+  }
+  .nav-link:hover {
+    border-top-style: none;
+    border-top-color: #ff2f4c;
+    border-bottom-color: #fff;
+  }
+  .nav-link.firstnav {
+    border-top-style: solid;
+    border-top-color: #fff;
+  }
+  .image {
+    max-width: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .icon {
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    cursor: pointer;
+  }
+  .nav-menu {
+    border-bottom: 2px solid #fff;
+    background-color: #2c363a;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  .h1 {
+    margin-top: 60px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .h1.centertext {
+    margin-top: 80px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .image {
+    overflow: visible;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .paragraph {
+    margin-bottom: 60px;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .live-badge {
+    margin-left: 12px;
+    padding: 3px 12px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .main {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .container {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .h1 {
+    margin-top: 80px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .h1.centertext {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .content {
+    margin-left: 0px;
+  }
+  .paragraph {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .text-block {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .brand {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .brand.w--current {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
