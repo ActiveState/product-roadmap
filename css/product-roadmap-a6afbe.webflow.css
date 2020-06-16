@@ -3,6 +3,7 @@
   position: sticky;
   top: 0px;
   height: auto;
+  max-height: 100px;
   min-height: 40px;
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -18,9 +19,16 @@
 }
 
 .main {
-  margin-right: 100px;
+  display: block;
+  max-width: 1200px;
+  margin-right: auto;
   margin-bottom: 0px;
-  margin-left: 100px;
+  margin-left: auto;
+  padding-right: 100px;
+  padding-left: 100px;
+  clear: none;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .logo {
@@ -46,23 +54,45 @@
 }
 
 .nav-link {
+  border-bottom: 6px solid #2c363a;
   -webkit-transition: color 200ms ease-in-out;
   transition: color 200ms ease-in-out;
   color: #fff;
 }
 
 .nav-link:hover {
-  color: #ff2f4c;
+  border-bottom: 6px solid #ff2f4c;
+  color: #fff;
 }
 
 .nav-link.w--current {
-  color: #ff2f4c;
+  border-style: none none solid solid;
+  border-width: 0px 0px 6px;
+  border-color: #ff2f4c;
+  color: #fff;
 }
 
 .nav-link.w--current:hover {
-  color: #ff2f4c;
+  color: #fff;
   text-decoration: none;
   text-transform: none;
+}
+
+.nav-link.firstnav {
+  border-style: none none solid;
+  border-width: 1px 1px 6px;
+  border-color: #000 #000 #2c363a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-link.firstnav:hover {
+  border-style: none none solid;
+  border-width: 1px 1px 6px;
+  border-color: #000 #000 #ff2f4c;
+  color: #fff;
+  text-decoration: none;
+  white-space: normal;
 }
 
 .container {
@@ -95,8 +125,15 @@
 }
 
 .h1 {
-  margin-top: 120px;
-  margin-bottom: 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
+  z-index: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 60px;
+  border-bottom: 2px solid #000;
+  background-color: #fff;
   font-family: 'Open Sans', sans-serif;
   color: #2c363a;
   font-size: 72px;
@@ -106,7 +143,15 @@
 }
 
 .h1.centertext {
-  margin-top: 120px;
+  position: static;
+  top: 60px;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  padding-top: 120px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  font-size: 60px;
+  line-height: 64px;
   text-align: center;
 }
 
@@ -133,8 +178,8 @@
 
 .h2 {
   margin-top: 0px;
-  font-size: 36px;
-  line-height: 40px;
+  font-size: 32px;
+  line-height: 36px;
 }
 
 .content {
@@ -142,12 +187,16 @@
   margin-left: 30px;
 }
 
+.content.first-content {
+  margin-top: 60px;
+}
+
 .paragraph {
   margin-bottom: 120px;
   font-family: 'Open Sans', sans-serif;
   color: #2c363a;
-  font-size: 36px;
-  line-height: 40px;
+  font-size: 28px;
+  line-height: 36px;
   font-weight: 300;
 }
 
@@ -186,8 +235,8 @@
   border-color: #ff2f4c;
   border-radius: 30px;
   color: #ff2f4c;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 24px;
   font-weight: 700;
 }
 
@@ -231,15 +280,37 @@
   margin-bottom: 60px;
 }
 
-.link-2 {
-  text-decoration: none;
+.arrow {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 50%;
 }
 
-.link-3 {
-  text-decoration: none;
+.image-2 {
+  position: fixed;
+  left: auto;
+  top: auto;
+  right: 60px;
+  bottom: 60px;
+  background-color: transparent;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  cursor: pointer;
+}
+
+.image-2:hover {
+  color: #ff2f4c;
 }
 
 @media screen and (max-width: 991px) {
+  .main {
+    margin-right: 60px;
+    margin-left: 60px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
   .nav-link {
     border-top: 2px none transparent;
     border-bottom: 2px solid #fff;
@@ -269,6 +340,9 @@
   .nav-menu {
     border-bottom: 2px solid #fff;
     background-color: #2c363a;
+  }
+  .image-2 {
+    display: none;
   }
 }
 
