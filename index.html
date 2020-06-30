@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Jun 19 2020 22:50:36 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="5ee26969f729c148be4293b9" data-wf-site="5ee26969f729c177834293b8">
+<!--  Last Published: Tue Jun 30 2020 16:19:44 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5ef67b0e2b6e5a6ac6527475" data-wf-site="5ee26969f729c177834293b8">
 
 <head>
   <meta charset="utf-8">
@@ -11,10 +11,10 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/product-roadmap-a6afbe.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script
     type="text/javascript">WebFont.load({ google: { families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"] } });</script>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script
     type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
@@ -23,195 +23,275 @@
 </head>
 
 <body class="body">
+
+  <!-- Navigation -->
+
   <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
     <div class="container w-container"><a href="#Hero" class="brand w-nav-brand"><img
-          src="images/activestate-logo-white.svg" alt="" class="image-3 logo"></a>
-      <nav role="navigation" class="nav-menu w-nav-menu"><a href="#Now" class="nav-link w-nav-link">Now</a><a
-          href="#Next" class="nav-link w-nav-link">Next</a><a href="#Later" class="nav-link w-nav-link">Later</a></nav>
+          src="images/activestate-logo-white.svg" alt="ActiveState Logo" class="image-3 logo"></a>
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        <a href="#Now" class="nav-link w-nav-link">Now</a>
+        <a href="#Next" class="nav-link w-nav-link">Next</a>
+        <a href="#Later" class="nav-link w-nav-link">Later</a>
+      </nav>
       <div class="w-nav-button">
         <div class="icon w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
+
   <div class="main">
+
+    <!-- Hero -->
+
     <div id="Hero" class="hero w-container">
-      <h1 class="h1 centertext">Platform Product Roadmap</h1><img src="images/ActiveState-Roadmap-Illustration-min.jpg"
+      <h1 class="centertext">Platform Product Roadmap</h1><img src="images/ActiveState-Roadmap-Illustration-min.jpg"
         height="" alt="ActiveState Product Roadmap"
-        srcset="images/ActiveState-Roadmap-Illustration-min.jpg 1080w, images/ActiveState-Roadmap-Illustration-min.jpg 1600w, images/ActiveState-Roadmap-Illustration-min.jpg 2000w"
+        srcset="images/ActiveState-Roadmap-Illustration-min-p-1080.jpeg 1080w, images/ActiveState-Roadmap-Illustration-min-p-1600.jpeg 1600w, images/ActiveState-Roadmap-Illustration-min.jpg 2000w"
         sizes="(max-width: 479px) 92vw, (max-width: 767px) 84vw, (max-width: 991px) 88vw, 1000px" class="image">
     </div>
+
+    <!-- Now -->
+
     <div id="Now" class="now w-container">
-      <h1 data-w-id="0a14c4fd-1cfe-4a2f-a5b4-db391338e7bc" style="opacity:0" class="h1">Now</h1>
+      <div class="tooptip-container-now">
+        <h1 data-w-id="00b9fdf7-3d2a-37fa-2a94-55dabee78294" style="opacity:0" class="h1">Now <span
+            data-w-id="00b9fdf7-3d2a-37fa-2a94-55dabee78296" class="tooltip-icon">i</span></h1>
+        <div data-w-id="00b9fdf7-3d2a-37fa-2a94-55dabee78298" class="tooltipnow">
+          <div class="tooltiparrownow"></div>
+          <div class="tooltip-text">We’re currently working on it. Expectation of delivery in the near term. No dates
+            specifically.</div>
+        </div>
+      </div>
+
+      <!-- Now Content -->
+
       <div class="content first-content">
         <div class="content-header">
-          <h2 class="h2">5K Perl Modules</h2>
+          <h2>5K Perl Modules</h2>
           <div class="live-badge">Live</div>
         </div>
-        <p class="paragraph">We&#x27;re 10Xing our catalogue of Perl modules featuring the best of the best in the Perl
-          ecosystem, pre-built and ready to use. 
-          <a href="https://docs.activestate.com/platform/changes/#enhancement-perl-package-catalog-expanded-to-include-the-packages-you-need" target="_blank" class="link">
-            Learn More.</a></p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Latest Package Versions</h2>
-          <div class="live-badge">Live</div> 
-       </div>
-        <p class="paragraph">Bring in all new versions of packages/modules in our catalogue within 48 hours of their release.</p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Azure CI/CD Support</h2>
-        </div>
-        <p class="paragraph">Via the State Tool, empower your Azure CI/CD with ActiveState&#x27;s Open Source Language
-          Builds.</p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Build Logs By Package</h2>
-        </div>
-        <p class="paragraph">See the build log details of each package or module in your build. Amazing for diagnosing
-          build issues.</p>
-      </div>
-    </div>
-    <div id="Next" class="next w-container">
-      <h1 data-w-id="d9dc988a-ccff-fb16-fbc3-0f411d087893" style="opacity:0" class="h1">Next</h1>
-      <div class="content first-content">
-        <div class="content-header">
-          <h2 class="h2">StateTool Support for Visual Studio Code</h2>
-        </div>
-        <p class="paragraph">Utilize your platform built runtimes within Visual Studio Code.</p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Project Source Code via API</h2>
-        </div>
-        <p class="paragraph">Grab all the source code for the language and modules you&#x27;re using straight from our
-          APIs.</p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Next Generation Solver</h2>
-        </div>
-        <p class="paragraph lastpara">Resolve all your dependencies and avoid dependency hell. Enabling other language
-          additions. Solve for more than just build/runtime dependencies. </p>
-      </div>
-    </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">New Perl Package Manager</h2>
-        </div>
-        <p class="paragraph">The State Tool command line tool provides a great experience to consume Perl modules.</p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Python Wheel Support</h2>
-        </div>
-        <p class="paragraph">Python packages can be consumed in wheel format via our APIs.<a href="#" class="link"></a>
-        </p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Docker Support</h2>
-        </div>
-        <p class="paragraph">Publish your project directly to a docker container or grab via our APIs. </p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">License Reporting</h2>
-        </div>
-        <p class="paragraph">Get all the licenses in your project in SPDX format.</p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Vulnerability Information</h2>
-        </div>
-        <p class="paragraph">Get all the CVEs by package to understand where your risks lie.</p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Build Graph</h2>
-        </div>
-        <p class="paragraph">GraphQL APIs to provide direct access to adding languages/packages to our system.
-          Utilize our advanced solver to get all the transitive dependencies in a build.</p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Project Source Code</h2>
-        </div>
-        <p class="paragraph">Grab all the source code for the language and modules you&#x27;re using straight from our
-          APIs.</p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Parallel Python Builds</h2>
-        </div>
-        <p class="paragraph">Super-fast Python builds in our parallelizable build farm. </p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Github Import</h2>
-        </div>
-        <p class="paragraph lastpara">Create your projects with all your dependencies straight from a GitHub project
-          URL.</p>
-      </div>
-    </div>
-    <div id="Later" class="later w-container">
-      <h1 data-w-id="4989427e-5170-e4ab-6ac1-386b8d49807e" style="opacity:0" class="h1">Later</h1>
-      <div class="content first-content">
-        <div class="content-header">
-          <h2 class="h2">Policy Management</h2>
-        </div>
-        <p class="paragraph">Set policies at the organization level to ensure you get only the packages with the
-          limitations you set, be it licenses, CVEs, or indemnification status.</p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Speculative Builds</h2>
-        </div>
-        <p class="paragraph">Your projects will be built with the latest updates automatically and ready for you to
-          grab, if and when you want to use them.<a href="#" class="link"></a></p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Ruby Beta</h2>
-        </div>
-        <p class="paragraph">Ruby is available for building and installable using the State Tool.</p>
-      </div>
-      <div class="content">
-        <div class="content-header">
-          <h2 class="h2">Entire Python EcoSystem</h2>
-        </div>
-        <p class="paragraph">We&#x27;re 10Xing our catalog of Perl modules featuring the best of the best in the Perl
+        <p>We&#x27;re 10Xing our catalog of Perl modules featuring the best of the best in the Perl
           ecosystem, pre-built and ready to use.</p>
       </div>
+
       <div class="content">
         <div class="content-header">
-          <h2 class="h2">Multi-Language Builds</h2>
+          <h2>Latest Package Versions</h2>
+          <div class="live-badge">Live</div>
         </div>
-        <p class="paragraph lastpara">Grab all the source code for the language and modules you&#x27;re using straight
+        <p>Bring in all new versions of packages/modules in our catalogue within 48 hours of their
+          release.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Azure CI/CD Support</h2>
+        </div>
+        <p>Via the State Tool, empower your Azure CI/CD with ActiveState&#x27;s Open Source Language
+          Builds.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Build Logs By Package</h2>
+        </div>
+        <p>See the build log details of each package or module in your build. Amazing for
+          diagnosing build issues.</p>
+      </div>
+
+    </div>
+
+    <!-- Next -->
+
+    <div id="Next" class="next w-container">
+      <div class="tooltip-container-next">
+        <h1 data-w-id="0a14c4fd-1cfe-4a2f-a5b4-db391338e7bc" style="opacity:0" class="h1">Next <span
+            data-w-id="fb9fea49-6010-fed3-c1d1-a16aff00ccd8" class="tooltip-icon">i</span></h1>
+        <div data-w-id="eda07e27-9e19-63ea-3617-f672a845e0e3" class="tooltipnext">
+          <div class="tooltiparrownext"></div>
+          <div class="tooltip-text">Outcomes/features we are actively investigating / planning. May not be delivered,
+            changes are possible. No dates.</div>
+        </div>
+      </div>
+
+      <!-- Next Content -->
+
+      <div class="content first-content">
+        <div class="content-header">
+          <h2>StateTool Support for Visual Studio Code</h2>
+        </div>
+        <p>Utilize your platform built runtimes within Visual Studio Code.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Project Source Code via API</h2>
+        </div>
+        <p>Grab all the source code for the language and modules you&#x27;re using straight from our
+          APIs.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Next Generation Solver</h2>
+        </div>
+        <p>Resolve all your dependencies and avoid dependency hell. Enabling other language additions.
+          Solve for more than just build/runtime dependencies.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>New Perl Package Manager</h2>
+        </div>
+        <p>The State Tool command line tool provides a great experience to consume Perl modules.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Python Wheel Support</h2>
+        </div>
+        <p>Python packages can be consumed in wheel format via our APIs.<a href="#" class="link"></a>
+        </p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Docker Support</h2>
+        </div>
+        <p>Publish your project directly to a docker container or grab via our APIs. </p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>License Reporting</h2>
+        </div>
+        <p>Get all the licenses in your project in SPDX format.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Vulnerability Information</h2>
+        </div>
+        <p>Get all the CVEs by package to understand where your risks lie.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Build Graph</h2>
+        </div>
+        <p>GraphQL APIs to provide direct access to adding languages/packages to our system. Utilize
+          our advanced solver to get all the transitive dependencies in a build.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Project Source Code</h2>
+        </div>
+        <p>Grab all the source code for the language and modules you&#x27;re using straight from our
+          APIs.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Parallel Python Builds</h2>
+        </div>
+        <p>Super-fast Python builds in our parallelizable build farm. </p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Github Import</h2>
+        </div>
+        <p class="lastpara">Create your projects with all your dependencies straight from a GitHub project
+          URL.</p>
+      </div>
+
+    </div>
+
+    <!-- Later -->
+
+    <div id="Later" class="later w-container">
+      <div class="tooltip-container-later">
+        <h1 data-w-id="1b2a5f49-88e5-0fc5-de8d-5ea5faeedb46" style="opacity:0" class="h1">Later <span
+            data-w-id="1b2a5f49-88e5-0fc5-de8d-5ea5faeedb48" class="tooltip-icon">i</span></h1>
+        <div data-w-id="1b2a5f49-88e5-0fc5-de8d-5ea5faeedb4a" class="tooltiplater">
+          <div class="tooltiparrowlater"></div>
+          <div class="tooltip-text">Future features/vision items. No dates.</div>
+        </div>
+      </div>
+
+      <!-- Last Content-->
+
+      <div class="content first-content">
+        <div class="content-header">
+          <h2>Policy Management</h2>
+        </div>
+        <p>Set policies at the organization level to ensure you get only the packages with the
+          limitations you set be it licenses, CVEs or indemnification status.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Speculative Builds</h2>
+        </div>
+        <p>Your projects will be built with the latest updates automatically and ready for you to
+          grab, if and when you want to use them.<a href="#" class="link"></a></p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Ruby Beta</h2>
+        </div>
+        <p>Ruby is available for building and installable using the State Tool.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Entire Python EcoSystem</h2>
+        </div>
+        <p>We&#x27;re 10Xing our catalog of Perl modules featuring the best of the best in the Perl
+          ecosystem, pre-built and ready to use.</p>
+      </div>
+
+      <div class="content">
+        <div class="content-header">
+          <h2>Multi-Language Builds</h2>
+        </div>
+        <p class="lastpara">Grab all the source code for the language and modules you&#x27;re using straight
           from our APIs.</p>
       </div>
+
     </div>
+
+    <!-- Feedback -->
+
     <div id="CTA" class="call-to-action w-container">
-      <h1 data-w-id="963b4db7-1fc7-0fc3-0e7a-ae47ee688ecd" style="opacity:0" class="h1">Feedback</h1>
-      <div class="content first-content">
-        <p class="paragraph">Like what you see? Think we&#x27;re missing the mark? Have a different take? Join the
-          conversation on the <a href="https://community.activestate.com/" target="_blank" class="link">ActiveState
+      <h1>Feedback</h1>
+      <div class="content">
+        <p class="feedback">Like what you see? Think we&#x27;re missing the mark? Have a different take? Join
+          the conversation on the <a href="https://community.activestate.com/" target="_blank" class="link">ActiveState
             Community Forums</a>.</p>
       </div>
     </div>
+
+    <!-- Back to top arrow -->
+
   </div><a href="#Hero" class="arrow w-inline-block"><img src="images/streamline-icon-arrow-up30x30.svg"
       data-w-id="b3ae4d9c-bc14-2dc2-47b8-e77d62d19b4c" alt="" class="image-2"></a>
+
+  <!-- Footer -->
+
   <div class="footer">
     <div class="container-2 w-container">
       <div class="text-block"> © ActiveState Software, Inc. 2020 • <a
           href="https://activestate.com/company/privacy-policy/" target="_blank" class="link">Privacy Policy</a></div>
       <div class="text-block">View the Platform -<a href="https://platform.activestate.com/" target="_blank"
-          class="link"> ActiveState.Platform.com</a> • Main Site -<a href="https://www.activestate.com/" target="_blank"
-          class="link"> ActiveState.com</a></div>
+          class="link"> platform.activestate.com</a> • Main Site -<a href="https://www.activestate.com/" target="_blank"
+          class="link"> activestate.com</a></div>
     </div>
   </div>
+
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ee26969f729c177834293b8"
     type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
