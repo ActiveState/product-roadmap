@@ -559,7 +559,7 @@ p {
   left: -75%;
   top: auto;
   right: 0%;
-  bottom: 85%;
+  bottom: 78%;
   z-index: 12;
   width: 30px;
   height: 30px;
@@ -672,10 +672,11 @@ p {
   }
   .tooltiparrownow {
     left: -61%;
+    bottom: 85%;
   }
   .tooltiparrownext {
     left: -60%;
-    bottom: 88%;
+    bottom: 85%;
   }
   .tooltiparrowlater {
     left: -57%;
@@ -746,11 +747,8 @@ p {
     margin-top: 130px;
   }
   .tooltipnext {
-    display: block;
-    margin-top: 130px;
-  }
-  .tooltip-container-next {
     display: none;
+    margin-top: 130px;
   }
   .tooltiplater {
     display: none;
@@ -758,15 +756,15 @@ p {
   }
   .tooltiparrownow {
     left: -57%;
-    bottom: 88%;
+    bottom: 85%;
   }
   .tooltiparrownext {
     left: -57%;
-    bottom: 90%;
+    bottom: 88%;
   }
   .tooltiparrowlater {
     left: -52%;
-    bottom: 84%;
+    bottom: 85%;
   }
 }
 
