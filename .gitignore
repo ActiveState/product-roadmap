@@ -1,1 +1,5 @@
 .DS_Store
+index.bak
+pr.csv
+Pipfile.lock
+Pipfile
